@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+ <settings>
+  <setting alwaysvectorfont="no"/>
+  <setting verticaltext="up"/>
+ </settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+ <layers>
+  <layer name="Top" active="yes" fill="1" visible="yes" number="1" color="4"/>
+  <layer name="Route2" active="yes" fill="1" visible="no" number="2" color="16"/>
+  <layer name="Route3" active="yes" fill="1" visible="no" number="3" color="17"/>
+  <layer name="Route4" active="yes" fill="1" visible="no" number="4" color="18"/>
+  <layer name="Route5" active="yes" fill="1" visible="no" number="5" color="19"/>
+  <layer name="Route6" active="yes" fill="1" visible="no" number="6" color="25"/>
+  <layer name="Route7" active="yes" fill="1" visible="no" number="7" color="26"/>
+  <layer name="Route8" active="yes" fill="1" visible="no" number="8" color="27"/>
+  <layer name="Route9" active="yes" fill="1" visible="no" number="9" color="28"/>
+  <layer name="Route10" active="yes" fill="1" visible="no" number="10" color="29"/>
+  <layer name="Route11" active="yes" fill="1" visible="no" number="11" color="30"/>
+  <layer name="Route12" active="yes" fill="1" visible="no" number="12" color="20"/>
+  <layer name="Route13" active="yes" fill="1" visible="no" number="13" color="21"/>
+  <layer name="Route14" active="yes" fill="1" visible="no" number="14" color="22"/>
+  <layer name="Route15" active="yes" fill="1" visible="no" number="15" color="23"/>
+  <layer name="Bottom" active="yes" fill="1" visible="yes" number="16" color="1"/>
+  <layer name="Pads" active="yes" fill="1" visible="yes" number="17" color="2"/>
+  <layer name="Vias" active="yes" fill="1" visible="yes" number="18" color="2"/>
+  <layer name="Unrouted" active="yes" fill="1" visible="yes" number="19" color="6"/>
+  <layer name="Dimension" active="yes" fill="1" visible="yes" number="20" color="24"/>
+  <layer name="tPlace" active="yes" fill="1" visible="yes" number="21" color="7"/>
+  <layer name="bPlace" active="yes" fill="1" visible="yes" number="22" color="7"/>
+  <layer name="tOrigins" active="yes" fill="1" visible="yes" number="23" color="15"/>
+  <layer name="bOrigins" active="yes" fill="1" visible="yes" number="24" color="15"/>
+  <layer name="tNames" active="yes" fill="1" visible="yes" number="25" color="7"/>
+  <layer name="bNames" active="yes" fill="1" visible="yes" number="26" color="7"/>
+  <layer name="tValues" active="yes" fill="1" visible="yes" number="27" color="7"/>
+  <layer name="bValues" active="yes" fill="1" visible="yes" number="28" color="7"/>
+  <layer name="tStop" active="yes" fill="3" visible="no" number="29" color="7"/>
+  <layer name="bStop" active="yes" fill="6" visible="no" number="30" color="7"/>
+  <layer name="tCream" active="yes" fill="4" visible="no" number="31" color="7"/>
+  <layer name="bCream" active="yes" fill="5" visible="no" number="32" color="7"/>
+  <layer name="tFinish" active="yes" fill="3" visible="no" number="33" color="6"/>
+  <layer name="bFinish" active="yes" fill="6" visible="no" number="34" color="6"/>
+  <layer name="tGlue" active="yes" fill="4" visible="no" number="35" color="7"/>
+  <layer name="bGlue" active="yes" fill="5" visible="no" number="36" color="7"/>
+  <layer name="tTest" active="yes" fill="1" visible="no" number="37" color="7"/>
+  <layer name="bTest" active="yes" fill="1" visible="no" number="38" color="7"/>
+  <layer name="tKeepout" active="yes" fill="11" visible="yes" number="39" color="4"/>
+  <layer name="bKeepout" active="yes" fill="11" visible="yes" number="40" color="1"/>
+  <layer name="tRestrict" active="yes" fill="10" visible="yes" number="41" color="4"/>
+  <layer name="bRestrict" active="yes" fill="10" visible="yes" number="42" color="1"/>
+  <layer name="vRestrict" active="yes" fill="10" visible="yes" number="43" color="2"/>
+  <layer name="Drills" active="yes" fill="1" visible="no" number="44" color="7"/>
+  <layer name="Holes" active="yes" fill="1" visible="no" number="45" color="7"/>
+  <layer name="Milling" active="yes" fill="1" visible="no" number="46" color="3"/>
+  <layer name="Measures" active="yes" fill="1" visible="no" number="47" color="7"/>
+  <layer name="Document" active="yes" fill="1" visible="yes" number="48" color="7"/>
+  <layer name="Reference" active="yes" fill="1" visible="yes" number="49" color="7"/>
+  <layer name="tDocu" active="yes" fill="1" visible="yes" number="51" color="7"/>
+  <layer name="bDocu" active="yes" fill="1" visible="yes" number="52" color="7"/>
+  <layer name="SimResults" active="yes" fill="1" visible="yes" number="88" color="9"/>
+  <layer name="SimProbes" active="yes" fill="1" visible="yes" number="89" color="9"/>
+  <layer name="Modules" active="yes" fill="1" visible="yes" number="90" color="5"/>
+  <layer name="Nets" active="yes" fill="1" visible="yes" number="91" color="2"/>
+  <layer name="Busses" active="yes" fill="1" visible="yes" number="92" color="1"/>
+  <layer name="Pins" active="yes" fill="1" visible="no" number="93" color="2"/>
+  <layer name="Symbols" active="yes" fill="1" visible="yes" number="94" color="4"/>
+  <layer name="Names" active="yes" fill="1" visible="yes" number="95" color="7"/>
+  <layer name="Values" active="yes" fill="1" visible="yes" number="96" color="7"/>
+  <layer name="Info" active="yes" fill="1" visible="yes" number="97" color="7"/>
+  <layer name="Guide" active="yes" fill="1" visible="yes" number="98" color="6"/>
+ </layers>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+ <package name="SOP65P760X160-24N">
+  <description>&lt;b>SSOP24-P-300-0.65A&lt;/b>&lt;br>&#xd;
+</description>
+  <smd name="1" rot="R0" y="3.575" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="2" rot="R0" y="2.925" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="3" rot="R0" y="2.275" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="4" rot="R0" y="1.625" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="5" rot="R0" y="0.975" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="6" rot="R0" y="0.325" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="7" rot="R0" y="-0.325" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="8" rot="R0" y="-0.975" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="9" rot="R0" y="-1.625" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="10" rot="R0" y="-2.275" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="11" rot="R0" y="-2.925" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="12" rot="R0" y="-3.575" dy="0.45" layer="1" dx="1.525" x="-3.562"/>
+  <smd name="13" rot="R0" y="-3.575" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="14" rot="R0" y="-2.925" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="15" rot="R0" y="-2.275" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="16" rot="R0" y="-1.625" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="17" rot="R0" y="-0.975" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="18" rot="R0" y="-0.325" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="19" rot="R0" y="0.325" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="20" rot="R0" y="0.975" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="21" rot="R0" y="1.625" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="22" rot="R0" y="2.275" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="23" rot="R0" y="2.925" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <smd name="24" rot="R0" y="3.575" dy="0.45" layer="1" dx="1.525" x="3.562"/>
+  <text rot="R0" y="0" align="center" size="1.27" layer="25" x="0">>NAME</text>
+  <text rot="R0" y="0" align="center" size="1.27" layer="27" x="0">>VALUE</text>
+  <wire x2="4.575" y1="4.4" x1="-4.575" layer="51" width="0.05" y2="4.4"/>
+  <wire x2="4.575" y1="4.4" x1="4.575" layer="51" width="0.05" y2="-4.4"/>
+  <wire x2="-4.575" y1="-4.4" x1="4.575" layer="51" width="0.05" y2="-4.4"/>
+  <wire x2="-4.575" y1="-4.4" x1="-4.575" layer="51" width="0.05" y2="4.4"/>
+  <wire x2="2.8" y1="4.15" x1="-2.8" layer="51" width="0.1" y2="4.15"/>
+  <wire x2="2.8" y1="4.15" x1="2.8" layer="51" width="0.1" y2="-4.15"/>
+  <wire x2="-2.8" y1="-4.15" x1="2.8" layer="51" width="0.1" y2="-4.15"/>
+  <wire x2="-2.8" y1="-4.15" x1="-2.8" layer="51" width="0.1" y2="4.15"/>
+  <wire x2="-2.15" y1="3.5" x1="-2.8" layer="51" width="0.1" y2="4.15"/>
+  <wire x2="2.45" y1="4.15" x1="-2.45" layer="21" width="0.2" y2="4.15"/>
+  <wire x2="2.45" y1="4.15" x1="2.45" layer="21" width="0.2" y2="-4.15"/>
+  <wire x2="-2.45" y1="-4.15" x1="2.45" layer="21" width="0.2" y2="-4.15"/>
+  <wire x2="-2.45" y1="-4.15" x1="-2.45" layer="21" width="0.2" y2="4.15"/>
+  <wire x2="-2.8" y1="4.15" x1="-4.325" layer="21" width="0.2" y2="4.15"/>
+ </package>
+ <package name="DIP795W50P254L2000H510Q16N">
+  <description>&lt;b>Powerdip 16&lt;/b>&lt;br>&#xd;
+</description>
+  <pad name="1" y="8.89" drill="0.7" shape="square" x="-3.975" diameter="1.1"/>
+  <pad name="2" y="6.35" drill="0.7" x="-3.975" diameter="1.1"/>
+  <pad name="3" y="3.81" drill="0.7" x="-3.975" diameter="1.1"/>
+  <pad name="4" y="1.27" drill="0.7" x="-3.975" diameter="1.1"/>
+  <pad name="5" y="-1.27" drill="0.7" x="-3.975" diameter="1.1"/>
+  <pad name="6" y="-3.81" drill="0.7" x="-3.975" diameter="1.1"/>
+  <pad name="7" y="-6.35" drill="0.7" x="-3.975" diameter="1.1"/>
+  <pad name="8" y="-8.89" drill="0.7" x="-3.975" diameter="1.1"/>
+  <pad name="9" y="-8.89" drill="0.7" x="3.975" diameter="1.1"/>
+  <pad name="10" y="-6.35" drill="0.7" x="3.975" diameter="1.1"/>
+  <pad name="11" y="-3.81" drill="0.7" x="3.975" diameter="1.1"/>
+  <pad name="12" y="-1.27" drill="0.7" x="3.975" diameter="1.1"/>
+  <pad name="13" y="1.27" drill="0.7" x="3.975" diameter="1.1"/>
+  <pad name="14" y="3.81" drill="0.7" x="3.975" diameter="1.1"/>
+  <pad name="15" y="6.35" drill="0.7" x="3.975" diameter="1.1"/>
+  <pad name="16" y="8.89" drill="0.7" x="3.975" diameter="1.1"/>
+  <text rot="R0" y="0" align="center" size="1.27" layer="25" x="0">>NAME</text>
+  <text rot="R0" y="0" align="center" size="1.27" layer="27" x="0">>VALUE</text>
+  <wire x2="4.775" y1="10.25" x1="-4.775" layer="51" width="0.05" y2="10.25"/>
+  <wire x2="4.775" y1="10.25" x1="4.775" layer="51" width="0.05" y2="-10.25"/>
+  <wire x2="-4.775" y1="-10.25" x1="4.775" layer="51" width="0.05" y2="-10.25"/>
+  <wire x2="-4.775" y1="-10.25" x1="-4.775" layer="51" width="0.05" y2="10.25"/>
+  <wire x2="3.55" y1="10" x1="-3.55" layer="51" width="0.1" y2="10"/>
+  <wire x2="3.55" y1="10" x1="3.55" layer="51" width="0.1" y2="-10"/>
+  <wire x2="-3.55" y1="-10" x1="3.55" layer="51" width="0.1" y2="-10"/>
+  <wire x2="-3.55" y1="-10" x1="-3.55" layer="51" width="0.1" y2="10"/>
+  <wire x2="-2.28" y1="8.73" x1="-3.55" layer="51" width="0.1" y2="10"/>
+  <wire x2="3.55" y1="10" x1="-4.525" layer="21" width="0.2" y2="10"/>
+  <wire x2="3.55" y1="-10" x1="-3.55" layer="21" width="0.2" y2="-10"/>
+ </package>
+ <package name="SOIC127P1032X265-20N">
+  <description>&lt;b>SO20&lt;/b>&lt;br>&#xd;
+</description>
+  <smd name="1" rot="R0" y="5.715" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="2" rot="R0" y="4.445" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="3" rot="R0" y="3.175" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="4" rot="R0" y="1.905" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="5" rot="R0" y="0.635" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="6" rot="R0" y="-0.635" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="7" rot="R0" y="-1.905" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="8" rot="R0" y="-3.175" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="9" rot="R0" y="-4.445" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="10" rot="R0" y="-5.715" dy="0.7" layer="1" dx="1.925" x="-4.712"/>
+  <smd name="11" rot="R0" y="-5.715" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="12" rot="R0" y="-4.445" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="13" rot="R0" y="-3.175" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="14" rot="R0" y="-1.905" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="15" rot="R0" y="-0.635" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="16" rot="R0" y="0.635" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="17" rot="R0" y="1.905" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="18" rot="R0" y="3.175" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="19" rot="R0" y="4.445" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <smd name="20" rot="R0" y="5.715" dy="0.7" layer="1" dx="1.925" x="4.712"/>
+  <text rot="R0" y="0" align="center" size="1.27" layer="25" x="0">>NAME</text>
+  <text rot="R0" y="0" align="center" size="1.27" layer="27" x="0">>VALUE</text>
+  <wire x2="5.925" y1="6.75" x1="-5.925" layer="51" width="0.05" y2="6.75"/>
+  <wire x2="5.925" y1="6.75" x1="5.925" layer="51" width="0.05" y2="-6.75"/>
+  <wire x2="-5.925" y1="-6.75" x1="5.925" layer="51" width="0.05" y2="-6.75"/>
+  <wire x2="-5.925" y1="-6.75" x1="-5.925" layer="51" width="0.05" y2="6.75"/>
+  <wire x2="3.75" y1="6.4" x1="-3.75" layer="51" width="0.1" y2="6.4"/>
+  <wire x2="3.75" y1="6.4" x1="3.75" layer="51" width="0.1" y2="-6.4"/>
+  <wire x2="-3.75" y1="-6.4" x1="3.75" layer="51" width="0.1" y2="-6.4"/>
+  <wire x2="-3.75" y1="-6.4" x1="-3.75" layer="51" width="0.1" y2="6.4"/>
+  <wire x2="-2.48" y1="5.13" x1="-3.75" layer="51" width="0.1" y2="6.4"/>
+  <wire x2="3.4" y1="6.4" x1="-3.4" layer="21" width="0.2" y2="6.4"/>
+  <wire x2="3.4" y1="6.4" x1="3.4" layer="21" width="0.2" y2="-6.4"/>
+  <wire x2="-3.4" y1="-6.4" x1="3.4" layer="21" width="0.2" y2="-6.4"/>
+  <wire x2="-3.4" y1="-6.4" x1="-3.4" layer="21" width="0.2" y2="6.4"/>
+  <wire x2="-3.75" y1="6.415" x1="-5.675" layer="21" width="0.2" y2="6.415"/>
+ </package>
+ <package name="QFN50P400X400X80-21N">
+  <description>&lt;b>20 QFN-EP&lt;/b>&lt;br>&#xd;
+</description>
+  <smd name="1" rot="R0" y="1" dy="0.3" layer="1" dx="0.95" x="-1.9"/>
+  <smd name="2" rot="R0" y="0.5" dy="0.3" layer="1" dx="0.95" x="-1.9"/>
+  <smd name="3" rot="R0" y="0" dy="0.3" layer="1" dx="0.95" x="-1.9"/>
+  <smd name="4" rot="R0" y="-0.5" dy="0.3" layer="1" dx="0.95" x="-1.9"/>
+  <smd name="5" rot="R0" y="-1" dy="0.3" layer="1" dx="0.95" x="-1.9"/>
+  <smd name="6" rot="R90" y="-1.9" dy="0.3" layer="1" dx="0.95" x="-1"/>
+  <smd name="7" rot="R90" y="-1.9" dy="0.3" layer="1" dx="0.95" x="-0.5"/>
+  <smd name="8" rot="R90" y="-1.9" dy="0.3" layer="1" dx="0.95" x="0"/>
+  <smd name="9" rot="R90" y="-1.9" dy="0.3" layer="1" dx="0.95" x="0.5"/>
+  <smd name="10" rot="R90" y="-1.9" dy="0.3" layer="1" dx="0.95" x="1"/>
+  <smd name="11" rot="R0" y="-1" dy="0.3" layer="1" dx="0.95" x="1.9"/>
+  <smd name="12" rot="R0" y="-0.5" dy="0.3" layer="1" dx="0.95" x="1.9"/>
+  <smd name="13" rot="R0" y="0" dy="0.3" layer="1" dx="0.95" x="1.9"/>
+  <smd name="14" rot="R0" y="0.5" dy="0.3" layer="1" dx="0.95" x="1.9"/>
+  <smd name="15" rot="R0" y="1" dy="0.3" layer="1" dx="0.95" x="1.9"/>
+  <smd name="16" rot="R90" y="1.9" dy="0.3" layer="1" dx="0.95" x="1"/>
+  <smd name="17" rot="R90" y="1.9" dy="0.3" layer="1" dx="0.95" x="0.5"/>
+  <smd name="18" rot="R90" y="1.9" dy="0.3" layer="1" dx="0.95" x="0"/>
+  <smd name="19" rot="R90" y="1.9" dy="0.3" layer="1" dx="0.95" x="-0.5"/>
+  <smd name="20" rot="R90" y="1.9" dy="0.3" layer="1" dx="0.95" x="-1"/>
+  <smd name="21" rot="R90" y="0" dy="2.45" layer="1" dx="2.45" x="0"/>
+  <text rot="R0" y="0" align="center" size="1.27" layer="25" x="0">>NAME</text>
+  <text rot="R0" y="0" align="center" size="1.27" layer="27" x="0">>VALUE</text>
+  <wire x2="2.625" y1="2.625" x1="-2.625" layer="51" width="0.05" y2="2.625"/>
+  <wire x2="2.625" y1="2.625" x1="2.625" layer="51" width="0.05" y2="-2.625"/>
+  <wire x2="-2.625" y1="-2.625" x1="2.625" layer="51" width="0.05" y2="-2.625"/>
+  <wire x2="-2.625" y1="-2.625" x1="-2.625" layer="51" width="0.05" y2="2.625"/>
+  <wire x2="2" y1="2" x1="-2" layer="51" width="0.1" y2="2"/>
+  <wire x2="2" y1="2" x1="2" layer="51" width="0.1" y2="-2"/>
+  <wire x2="-2" y1="-2" x1="2" layer="51" width="0.1" y2="-2"/>
+  <wire x2="-2" y1="-2" x1="-2" layer="51" width="0.1" y2="2"/>
+  <wire x2="-1.5" y1="1.5" x1="-2" layer="51" width="0.1" y2="2"/>
+  <circle y="1.75" radius="0.125" layer="25" width="0.25" x="-2.375"/>
+ </package>
+</packages>
+<symbols>
+ <symbol name="TB6612FNG,C,8,EL">
+  <wire x2="27.94" y1="2.54" x1="5.08" layer="94" width="0.254" y2="2.54"/>
+  <wire x2="27.94" y1="-30.48" x1="27.94" layer="94" width="0.254" y2="2.54"/>
+  <wire x2="5.08" y1="-30.48" x1="27.94" layer="94" width="0.254" y2="-30.48"/>
+  <wire x2="5.08" y1="2.54" x1="5.08" layer="94" width="0.254" y2="-30.48"/>
+  <text y="7.62" align="center-left" size="1.778" layer="95" x="29.21">>NAME</text>
+  <text y="5.08" align="center-left" size="1.778" layer="96" x="29.21">>VALUE</text>
+  <pin name="A01_1" rot="R0" y="0" direction="io" length="middle" x="0"/>
+  <pin name="A01_2" rot="R0" y="-2.54" direction="io" length="middle" x="0"/>
+  <pin name="PGND1_1" rot="R0" y="-5.08" direction="pwr" length="middle" x="0"/>
+  <pin name="PGND1_2" rot="R0" y="-7.62" direction="pwr" length="middle" x="0"/>
+  <pin name="A02_1" rot="R0" y="-10.16" direction="io" length="middle" x="0"/>
+  <pin name="A02_2" rot="R0" y="-12.7" direction="io" length="middle" x="0"/>
+  <pin name="B02_1" rot="R0" y="-15.24" direction="io" length="middle" x="0"/>
+  <pin name="B02_2" rot="R0" y="-17.78" direction="io" length="middle" x="0"/>
+  <pin name="PGND2_1" rot="R0" y="-20.32" direction="pwr" length="middle" x="0"/>
+  <pin name="PGND2_2" rot="R0" y="-22.86" direction="pwr" length="middle" x="0"/>
+  <pin name="B01_1" rot="R0" y="-25.4" direction="io" length="middle" x="0"/>
+  <pin name="B01_2" rot="R0" y="-27.94" direction="io" length="middle" x="0"/>
+  <pin name="VM1" rot="R180" y="0" direction="io" length="middle" x="33.02"/>
+  <pin name="PWMA" rot="R180" y="-2.54" direction="io" length="middle" x="33.02"/>
+  <pin name="AIN2" rot="R180" y="-5.08" direction="in" length="middle" x="33.02"/>
+  <pin name="AIN1" rot="R180" y="-7.62" direction="in" length="middle" x="33.02"/>
+  <pin name="VCC" rot="R180" y="-10.16" direction="pwr" length="middle" x="33.02"/>
+  <pin name="STBY" rot="R180" y="-12.7" direction="io" length="middle" x="33.02"/>
+  <pin name="GND" rot="R180" y="-15.24" direction="pwr" length="middle" x="33.02"/>
+  <pin name="BIN1" rot="R180" y="-17.78" direction="in" length="middle" x="33.02"/>
+  <pin name="BIN2" rot="R180" y="-20.32" direction="in" length="middle" x="33.02"/>
+  <pin name="PWMB" rot="R180" y="-22.86" direction="io" length="middle" x="33.02"/>
+  <pin name="VM3" rot="R180" y="-25.4" direction="io" length="middle" x="33.02"/>
+  <pin name="VM2" rot="R180" y="-27.94" direction="io" length="middle" x="33.02"/>
+ </symbol>
+ <symbol name="L293D">
+  <wire x2="30.48" y1="2.54" x1="5.08" layer="94" width="0.254" y2="2.54"/>
+  <wire x2="30.48" y1="-20.32" x1="30.48" layer="94" width="0.254" y2="2.54"/>
+  <wire x2="5.08" y1="-20.32" x1="30.48" layer="94" width="0.254" y2="-20.32"/>
+  <wire x2="5.08" y1="2.54" x1="5.08" layer="94" width="0.254" y2="-20.32"/>
+  <text y="7.62" align="center-left" size="1.778" layer="95" x="31.75">>NAME</text>
+  <text y="5.08" align="center-left" size="1.778" layer="96" x="31.75">>VALUE</text>
+  <pin name="ENABLE1" rot="R0" y="0" direction="out" length="middle" x="0"/>
+  <pin name="INPUT1" rot="R0" y="-2.54" direction="in" length="middle" x="0"/>
+  <pin name="OUTPUT1" rot="R0" y="-5.08" direction="out" length="middle" x="0"/>
+  <pin name="GND" rot="R0" y="-7.62" direction="pwr" length="middle" x="0"/>
+  <pin name="GND_1" rot="R0" y="-10.16" direction="pwr" length="middle" x="0"/>
+  <pin name="OUTPUT2" rot="R0" y="-12.7" direction="out" length="middle" x="0"/>
+  <pin name="INPUT2" rot="R0" y="-15.24" direction="in" length="middle" x="0"/>
+  <pin name="VS" rot="R0" y="-17.78" direction="pwr" length="middle" x="0"/>
+  <pin name="VSS" rot="R180" y="0" direction="pwr" length="middle" x="35.56"/>
+  <pin name="INPUT4" rot="R180" y="-2.54" direction="in" length="middle" x="35.56"/>
+  <pin name="OUTPUT4" rot="R180" y="-5.08" direction="out" length="middle" x="35.56"/>
+  <pin name="GND_3" rot="R180" y="-7.62" direction="pwr" length="middle" x="35.56"/>
+  <pin name="GND_2" rot="R180" y="-10.16" direction="pwr" length="middle" x="35.56"/>
+  <pin name="OUTPUT3" rot="R180" y="-12.7" direction="out" length="middle" x="35.56"/>
+  <pin name="INPUT3" rot="R180" y="-15.24" direction="in" length="middle" x="35.56"/>
+  <pin name="ENABLE2" rot="R180" y="-17.78" direction="out" length="middle" x="35.56"/>
+ </symbol>
+ <symbol name="L293DD">
+  <wire x2="33.02" y1="2.54" x1="5.08" layer="94" width="0.254" y2="2.54"/>
+  <wire x2="33.02" y1="-25.4" x1="33.02" layer="94" width="0.254" y2="2.54"/>
+  <wire x2="5.08" y1="-25.4" x1="33.02" layer="94" width="0.254" y2="-25.4"/>
+  <wire x2="5.08" y1="2.54" x1="5.08" layer="94" width="0.254" y2="-25.4"/>
+  <text y="7.62" align="center-left" size="1.778" layer="95" x="34.29">>NAME</text>
+  <text y="5.08" align="center-left" size="1.778" layer="96" x="34.29">>VALUE</text>
+  <pin name="ENABLE_1" rot="R0" y="0" direction="io" length="middle" x="0"/>
+  <pin name="INPUT_1" rot="R0" y="-2.54" direction="in" length="middle" x="0"/>
+  <pin name="OUTPUT_1" rot="R0" y="-5.08" direction="out" length="middle" x="0"/>
+  <pin name="GND" rot="R0" y="-7.62" direction="pwr" length="middle" x="0"/>
+  <pin name="GND_1" rot="R0" y="-10.16" direction="pwr" length="middle" x="0"/>
+  <pin name="GND_2" rot="R0" y="-12.7" direction="pwr" length="middle" x="0"/>
+  <pin name="GND_3" rot="R0" y="-15.24" direction="pwr" length="middle" x="0"/>
+  <pin name="OUTPUT_2" rot="R0" y="-17.78" direction="out" length="middle" x="0"/>
+  <pin name="INPUT_2" rot="R0" y="-20.32" direction="in" length="middle" x="0"/>
+  <pin name="VS" rot="R0" y="-22.86" direction="io" length="middle" x="0"/>
+  <pin name="VSS" rot="R180" y="0" direction="pwr" length="middle" x="38.1"/>
+  <pin name="INPUT_4" rot="R180" y="-2.54" direction="in" length="middle" x="38.1"/>
+  <pin name="OUTPUT_4" rot="R180" y="-5.08" direction="out" length="middle" x="38.1"/>
+  <pin name="GND_7" rot="R180" y="-7.62" direction="pwr" length="middle" x="38.1"/>
+  <pin name="GND_6" rot="R180" y="-10.16" direction="pwr" length="middle" x="38.1"/>
+  <pin name="GND_5" rot="R180" y="-12.7" direction="pwr" length="middle" x="38.1"/>
+  <pin name="GND_4" rot="R180" y="-15.24" direction="pwr" length="middle" x="38.1"/>
+  <pin name="OUTPUT_3" rot="R180" y="-17.78" direction="out" length="middle" x="38.1"/>
+  <pin name="INPUT_3" rot="R180" y="-20.32" direction="in" length="middle" x="38.1"/>
+  <pin name="ENABLE_2" rot="R180" y="-22.86" direction="io" length="middle" x="38.1"/>
+ </symbol>
+ <symbol name="A3906SESTR-T">
+  <wire x2="27.94" y1="12.7" x1="5.08" layer="94" width="0.254" y2="12.7"/>
+  <wire x2="27.94" y1="-22.86" x1="27.94" layer="94" width="0.254" y2="12.7"/>
+  <wire x2="5.08" y1="-22.86" x1="27.94" layer="94" width="0.254" y2="-22.86"/>
+  <wire x2="5.08" y1="12.7" x1="5.08" layer="94" width="0.254" y2="-22.86"/>
+  <text y="17.78" align="center-left" size="1.778" layer="95" x="29.21">>NAME</text>
+  <text y="15.24" align="center-left" size="1.778" layer="96" x="29.21">>VALUE</text>
+  <pin name="CP2" rot="R0" y="0" direction="io" length="middle" x="0"/>
+  <pin name="GND" rot="R0" y="-2.54" direction="pwr" length="middle" x="0"/>
+  <pin name="SLEEP" rot="R0" y="-5.08" direction="io" length="middle" x="0"/>
+  <pin name="IN1" rot="R0" y="-7.62" direction="in" length="middle" x="0"/>
+  <pin name="IN2" rot="R0" y="-10.16" direction="in" length="middle" x="0"/>
+  <pin name="IN3" rot="R90" y="-27.94" direction="in" length="middle" x="10.16"/>
+  <pin name="IN4" rot="R90" y="-27.94" direction="in" length="middle" x="12.7"/>
+  <pin name="FL1" rot="R90" y="-27.94" direction="io" length="middle" x="15.24"/>
+  <pin name="FL2" rot="R90" y="-27.94" direction="io" length="middle" x="17.78"/>
+  <pin name="OUT2A" rot="R90" y="-27.94" direction="out" length="middle" x="20.32"/>
+  <pin name="SENSE1" rot="R180" y="0" direction="io" length="middle" x="33.02"/>
+  <pin name="OUT1B" rot="R180" y="-2.54" direction="out" length="middle" x="33.02"/>
+  <pin name="VBB" rot="R180" y="-5.08" direction="io" length="middle" x="33.02"/>
+  <pin name="OUT2B" rot="R180" y="-7.62" direction="out" length="middle" x="33.02"/>
+  <pin name="SENSE2" rot="R180" y="-10.16" direction="io" length="middle" x="33.02"/>
+  <pin name="EP" rot="R270" y="17.78" direction="io" length="middle" x="10.16"/>
+  <pin name="CP4" rot="R270" y="17.78" direction="io" length="middle" x="12.7"/>
+  <pin name="CP1" rot="R270" y="17.78" direction="io" length="middle" x="15.24"/>
+  <pin name="CP3" rot="R270" y="17.78" direction="io" length="middle" x="17.78"/>
+  <pin name="VCP" rot="R270" y="17.78" direction="io" length="middle" x="20.32"/>
+  <pin name="OUT1A" rot="R270" y="17.78" direction="out" length="middle" x="22.86"/>
+ </symbol>
+</symbols>
+<devicesets>
+ <deviceset name="TB6612FNG,C,8,EL" prefix="IC">
+  <description>&lt;b>otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://toshiba.semicon-storage.com/info/docget.jsp?did=10660&amp;prodName=TB6612FNG"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" y="0" x="0" symbol="TB6612FNG,C,8,EL"/>
+  </gates>
+  <devices>
+   <device name="" package="SOP65P760X160-24N">
+    <connects>
+     <connect pad="1" pin="A01_1" gate="G$1"/>
+     <connect pad="2" pin="A01_2" gate="G$1"/>
+     <connect pad="3" pin="PGND1_1" gate="G$1"/>
+     <connect pad="4" pin="PGND1_2" gate="G$1"/>
+     <connect pad="5" pin="A02_1" gate="G$1"/>
+     <connect pad="6" pin="A02_2" gate="G$1"/>
+     <connect pad="7" pin="B02_1" gate="G$1"/>
+     <connect pad="8" pin="B02_2" gate="G$1"/>
+     <connect pad="9" pin="PGND2_1" gate="G$1"/>
+     <connect pad="10" pin="PGND2_2" gate="G$1"/>
+     <connect pad="11" pin="B01_1" gate="G$1"/>
+     <connect pad="12" pin="B01_2" gate="G$1"/>
+     <connect pad="13" pin="VM2" gate="G$1"/>
+     <connect pad="14" pin="VM3" gate="G$1"/>
+     <connect pad="15" pin="PWMB" gate="G$1"/>
+     <connect pad="16" pin="BIN2" gate="G$1"/>
+     <connect pad="17" pin="BIN1" gate="G$1"/>
+     <connect pad="18" pin="GND" gate="G$1"/>
+     <connect pad="19" pin="STBY" gate="G$1"/>
+     <connect pad="20" pin="VCC" gate="G$1"/>
+     <connect pad="21" pin="AIN1" gate="G$1"/>
+     <connect pad="22" pin="AIN2" gate="G$1"/>
+     <connect pad="23" pin="PWMA" gate="G$1"/>
+     <connect pad="24" pin="VM1" gate="G$1"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="Toshiba" name="Manufacturer_Name" constant="no"/>
+      <attribute value="TB6612FNG,C,8,EL" name="Manufacturer_Part_Number" constant="no"/>
+      <attribute value="" name="RS_Part_Number" constant="no"/>
+      <attribute value="" name="RS_Price-Stock" constant="no"/>
+      <attribute value="757-TB6612FNGC8EL" name="Mouser_Part_Number" constant="no"/>
+      <attribute value="https://www.mouser.com/Search/Refine.aspx?Keyword=757-TB6612FNGC8EL" name="Mouser_Price-Stock" constant="no"/>
+      <attribute value="otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC" name="Description" constant="no"/>
+      <attribute value="1.6mm" name="Height" constant="no"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="L293D" prefix="IC">
+  <description>&lt;b>L293D, Motor Driver, 4.5  36 V, 16-Pin Power PDIP&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00000059.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" y="0" x="0" symbol="L293D"/>
+  </gates>
+  <devices>
+   <device name="" package="DIP795W50P254L2000H510Q16N">
+    <connects>
+     <connect pad="1" pin="ENABLE1" gate="G$1"/>
+     <connect pad="2" pin="INPUT1" gate="G$1"/>
+     <connect pad="3" pin="OUTPUT1" gate="G$1"/>
+     <connect pad="4" pin="GND" gate="G$1"/>
+     <connect pad="5" pin="GND_1" gate="G$1"/>
+     <connect pad="6" pin="OUTPUT2" gate="G$1"/>
+     <connect pad="7" pin="INPUT2" gate="G$1"/>
+     <connect pad="8" pin="VS" gate="G$1"/>
+     <connect pad="9" pin="ENABLE2" gate="G$1"/>
+     <connect pad="10" pin="INPUT3" gate="G$1"/>
+     <connect pad="11" pin="OUTPUT3" gate="G$1"/>
+     <connect pad="12" pin="GND_2" gate="G$1"/>
+     <connect pad="13" pin="GND_3" gate="G$1"/>
+     <connect pad="14" pin="OUTPUT4" gate="G$1"/>
+     <connect pad="15" pin="INPUT4" gate="G$1"/>
+     <connect pad="16" pin="VSS" gate="G$1"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="STMicroelectronics" name="Manufacturer_Name" constant="no"/>
+      <attribute value="L293D" name="Manufacturer_Part_Number" constant="no"/>
+      <attribute value="7140622P" name="RS_Part_Number" constant="no"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/7140622P" name="RS_Price-Stock" constant="no"/>
+      <attribute value="70014167" name="Allied_Number" constant="no"/>
+      <attribute value="http://www.alliedelec.com/stmicroelectronics-l293d/70014167/" name="Allied_Price-Stock" constant="no"/>
+      <attribute value="511-L293D" name="Mouser_Part_Number" constant="no"/>
+      <attribute value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-L293D" name="Mouser_Price-Stock" constant="no"/>
+      <attribute value="L293D, Motor Driver, 4.5  36 V, 16-Pin Power PDIP" name="Description" constant="no"/>
+      <attribute value="5.1mm" name="Height" constant="no"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="L293DD" prefix="IC">
+  <description>&lt;b>L293DD, Motor Driver, 4.5  36 V, 20-Pin SOIC&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000059.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" y="0" x="0" symbol="L293DD"/>
+  </gates>
+  <devices>
+   <device name="" package="SOIC127P1032X265-20N">
+    <connects>
+     <connect pad="1" pin="ENABLE_1" gate="G$1"/>
+     <connect pad="2" pin="INPUT_1" gate="G$1"/>
+     <connect pad="3" pin="OUTPUT_1" gate="G$1"/>
+     <connect pad="4" pin="GND" gate="G$1"/>
+     <connect pad="5" pin="GND_1" gate="G$1"/>
+     <connect pad="6" pin="GND_2" gate="G$1"/>
+     <connect pad="7" pin="GND_3" gate="G$1"/>
+     <connect pad="8" pin="OUTPUT_2" gate="G$1"/>
+     <connect pad="9" pin="INPUT_2" gate="G$1"/>
+     <connect pad="10" pin="VS" gate="G$1"/>
+     <connect pad="11" pin="ENABLE_2" gate="G$1"/>
+     <connect pad="12" pin="INPUT_3" gate="G$1"/>
+     <connect pad="13" pin="OUTPUT_3" gate="G$1"/>
+     <connect pad="14" pin="GND_4" gate="G$1"/>
+     <connect pad="15" pin="GND_5" gate="G$1"/>
+     <connect pad="16" pin="GND_6" gate="G$1"/>
+     <connect pad="17" pin="GND_7" gate="G$1"/>
+     <connect pad="18" pin="OUTPUT_4" gate="G$1"/>
+     <connect pad="19" pin="INPUT_4" gate="G$1"/>
+     <connect pad="20" pin="VSS" gate="G$1"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="STMicroelectronics" name="Manufacturer_Name" constant="no"/>
+      <attribute value="L293DD" name="Manufacturer_Part_Number" constant="no"/>
+      <attribute value="1781403" name="RS_Part_Number" constant="no"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/1781403" name="RS_Price-Stock" constant="no"/>
+      <attribute value="70013700" name="Allied_Number" constant="no"/>
+      <attribute value="http://www.alliedelec.com/stmicroelectronics-l293dd/70013700/" name="Allied_Price-Stock" constant="no"/>
+      <attribute value="511-L293DD" name="Mouser_Part_Number" constant="no"/>
+      <attribute value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-L293DD" name="Mouser_Price-Stock" constant="no"/>
+      <attribute value="L293DD, Motor Driver, 4.5  36 V, 20-Pin SOIC" name="Description" constant="no"/>
+      <attribute value="2.65mm" name="Height" constant="no"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="A3906SESTR-T" prefix="IC">
+  <description>&lt;b>A3906SESTR-T, DC Motor Driver, 2.5 to 9V, 20-Pin QFN EP&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/0d88/0900766b80d881cf.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" y="0" x="0" symbol="A3906SESTR-T"/>
+  </gates>
+  <devices>
+   <device name="" package="QFN50P400X400X80-21N">
+    <connects>
+     <connect pad="1" pin="CP2" gate="G$1"/>
+     <connect pad="2" pin="GND" gate="G$1"/>
+     <connect pad="3" pin="SLEEP" gate="G$1"/>
+     <connect pad="4" pin="IN1" gate="G$1"/>
+     <connect pad="5" pin="IN2" gate="G$1"/>
+     <connect pad="6" pin="IN3" gate="G$1"/>
+     <connect pad="7" pin="IN4" gate="G$1"/>
+     <connect pad="8" pin="FL1" gate="G$1"/>
+     <connect pad="9" pin="FL2" gate="G$1"/>
+     <connect pad="10" pin="OUT2A" gate="G$1"/>
+     <connect pad="11" pin="SENSE2" gate="G$1"/>
+     <connect pad="12" pin="OUT2B" gate="G$1"/>
+     <connect pad="13" pin="VBB" gate="G$1"/>
+     <connect pad="14" pin="OUT1B" gate="G$1"/>
+     <connect pad="15" pin="SENSE1" gate="G$1"/>
+     <connect pad="16" pin="OUT1A" gate="G$1"/>
+     <connect pad="17" pin="VCP" gate="G$1"/>
+     <connect pad="18" pin="CP3" gate="G$1"/>
+     <connect pad="19" pin="CP1" gate="G$1"/>
+     <connect pad="20" pin="CP4" gate="G$1"/>
+     <connect pad="21" pin="EP" gate="G$1"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="Allegro Microsystems" name="Manufacturer_Name" constant="no"/>
+      <attribute value="A3906SESTR-T" name="Manufacturer_Part_Number" constant="no"/>
+      <attribute value="1775538" name="RS_Part_Number" constant="no"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/1775538" name="RS_Price-Stock" constant="no"/>
+      <attribute value="R1076694" name="Allied_Number" constant="no"/>
+      <attribute value="http://www.alliedelec.com/allegro-microsystems-a3906sestr-t/R1076694/" name="Allied_Price-Stock" constant="no"/>
+      <attribute value="1775538" name="Mouser_Part_Number" constant="no"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/1775538" name="Mouser_Price-Stock" constant="no"/>
+      <attribute value="A3906SESTR-T, DC Motor Driver, 2.5 to 9V, 20-Pin QFN EP" name="Description" constant="no"/>
+      <attribute value="0.8mm" name="Height" constant="no"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
