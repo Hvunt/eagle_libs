@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1234,6 +1234,24 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pad name="2" x="5" y="0" drill="1.5" diameter="3.5"/>
 <text x="0" y="2" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="ABM38000MHZD2YT">
+<description>&lt;b&gt;ABM3-8.000MHz-D2Y-T&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.05" y="0" dx="2.4" dy="1.9" layer="1" rot="R90"/>
+<smd name="2" x="2.05" y="0" dx="2.4" dy="1.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.2" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="-2.5" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="1.6" width="0.2" layer="51"/>
+<wire x1="-4" y1="2.6" x2="4" y2="2.6" width="0.1" layer="51"/>
+<wire x1="4" y1="2.6" x2="4" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="4" y1="-2.6" x2="-4" y2="-2.6" width="0.1" layer="51"/>
+<wire x1="-4" y1="-2.6" x2="-4" y2="2.6" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AMS2302">
@@ -2441,6 +2459,18 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pin name="PD0" x="50.8" y="-17.78" length="middle" rot="R180"/>
 <pin name="PA15" x="50.8" y="-20.32" length="middle" rot="R180"/>
 </symbol>
+<symbol name="ABM3-8.000MHZ-D2Y-T">
+<wire x1="3.1" y1="-2.54" x2="3.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.32" y1="2.54" x2="-3.32" y2="-2.54" width="0.254" layer="94"/>
+<text x="4.91" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="4.91" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="-8.4" y="0" visible="pad" length="middle"/>
+<pin name="2" x="8.18" y="0" visible="pad" length="middle" rot="R180"/>
+<wire x1="-1.6" y1="4" x2="1.4" y2="4" width="0.1524" layer="94"/>
+<wire x1="-1.6" y1="4" x2="-1.6" y2="-4" width="0.1524" layer="94"/>
+<wire x1="-1.6" y1="-4" x2="1.4" y2="-4" width="0.1524" layer="94"/>
+<wire x1="1.4" y1="-4" x2="1.4" y2="4" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AMS2302" prefix="U">
@@ -3525,6 +3555,33 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/stm32g071cb.pdf"&gt
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-STM32G071CBT6" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABM3-8.000MHZ-D2Y-T" prefix="Y">
+<description>&lt;b&gt;Abracon 6 MHz, 8 MHz Crystal +/-20 ppm, +/-30 ppm 2-SMD, HC49/US, No Lead&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://abracon.com/Support/PackageDrawing/Resonators/ABM3.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ABM3-8.000MHZ-D2Y-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ABM38000MHZD2YT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Abracon 6 MHz, 8 MHz Crystal +/-20 ppm, +/-30 ppm 2-SMD, HC49/US, No Lead" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ABRACON" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ABM3-8.000MHZ-D2Y-T" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="815-ABM3-8-D2Y-T" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=815-ABM3-8-D2Y-T" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1710572P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1710572P" constant="no"/>
 </technology>
 </technologies>
 </device>
