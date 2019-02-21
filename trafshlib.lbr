@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1255,33 +1255,33 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <package name="QFN40P300X300X105-25N">
 <description>&lt;b&gt;QFN-24&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.5" y="1" dx="0.75" dy="0.2" layer="1"/>
-<smd name="2" x="-1.5" y="0.6" dx="0.75" dy="0.2" layer="1"/>
-<smd name="3" x="-1.5" y="0.2" dx="0.75" dy="0.2" layer="1"/>
-<smd name="4" x="-1.5" y="-0.2" dx="0.75" dy="0.2" layer="1"/>
-<smd name="5" x="-1.5" y="-0.6" dx="0.75" dy="0.2" layer="1"/>
-<smd name="6" x="-1.5" y="-1" dx="0.75" dy="0.2" layer="1"/>
-<smd name="7" x="-1" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="8" x="-0.6" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="9" x="-0.2" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="10" x="0.2" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="11" x="0.6" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="12" x="1" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="13" x="1.5" y="-1" dx="0.75" dy="0.2" layer="1"/>
-<smd name="14" x="1.5" y="-0.6" dx="0.75" dy="0.2" layer="1"/>
-<smd name="15" x="1.5" y="-0.2" dx="0.75" dy="0.2" layer="1"/>
-<smd name="16" x="1.5" y="0.2" dx="0.75" dy="0.2" layer="1"/>
-<smd name="17" x="1.5" y="0.6" dx="0.75" dy="0.2" layer="1"/>
-<smd name="18" x="1.5" y="1" dx="0.75" dy="0.2" layer="1"/>
-<smd name="19" x="1" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="20" x="0.6" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="21" x="0.2" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="22" x="-0.2" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="23" x="-0.6" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
-<smd name="24" x="-1" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="1" x="-1.6" y="1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="2" x="-1.6" y="0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="3" x="-1.6" y="0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="4" x="-1.6" y="-0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="5" x="-1.6" y="-0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="6" x="-1.6" y="-1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="7" x="-1" y="-1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="-0.6" y="-1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="-0.2" y="-1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="0.2" y="-1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="0.6" y="-1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="1" y="-1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="1.6" y="-1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="14" x="1.6" y="-0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="15" x="1.6" y="-0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="16" x="1.6" y="0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="17" x="1.6" y="0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="18" x="1.6" y="1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="19" x="1" y="1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="0.6" y="1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="0.2" y="1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="22" x="-0.2" y="1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="23" x="-0.6" y="1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="24" x="-1" y="1.6" dx="0.75" dy="0.2" layer="1" rot="R90"/>
 <smd name="25" x="0" y="0" dx="1.75" dy="1.59" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-0.127" y="2.921" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-2.921" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
 <wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
 <wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
@@ -1289,9 +1289,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
 <wire x1="-1.5" y1="1.1" x2="-1.1" y2="1.5" width="0.1" layer="51"/>
 <circle x="-1.875" y="1.6" radius="0.1" width="0.2" layer="25"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
