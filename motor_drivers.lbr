@@ -784,7 +784,7 @@ Source: &lt;a href="http://docs-emea.rs-online.com/webdocs/0d88/0900766b80d881cf
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8825(MODULE)">
+<deviceset name="DRV8825(MODULE)" prefix="M">
 <gates>
 <gate name="G$1" symbol="DRV8825(MODULE)" x="-15.24" y="-12.7"/>
 </gates>
