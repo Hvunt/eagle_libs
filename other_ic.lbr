@@ -8,68 +8,68 @@
  </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
  <layers>
-  <layer number="1" active="yes" color="4" fill="1" name="Top" visible="yes"/>
-  <layer number="2" active="yes" color="16" fill="1" name="Route2" visible="no"/>
-  <layer number="3" active="yes" color="17" fill="1" name="Route3" visible="no"/>
-  <layer number="4" active="yes" color="18" fill="1" name="Route4" visible="no"/>
-  <layer number="5" active="yes" color="19" fill="1" name="Route5" visible="no"/>
-  <layer number="6" active="yes" color="25" fill="1" name="Route6" visible="no"/>
-  <layer number="7" active="yes" color="26" fill="1" name="Route7" visible="no"/>
-  <layer number="8" active="yes" color="27" fill="1" name="Route8" visible="no"/>
-  <layer number="9" active="yes" color="28" fill="1" name="Route9" visible="no"/>
-  <layer number="10" active="yes" color="29" fill="1" name="Route10" visible="no"/>
-  <layer number="11" active="yes" color="30" fill="1" name="Route11" visible="no"/>
-  <layer number="12" active="yes" color="20" fill="1" name="Route12" visible="no"/>
-  <layer number="13" active="yes" color="21" fill="1" name="Route13" visible="no"/>
-  <layer number="14" active="yes" color="22" fill="1" name="Route14" visible="no"/>
-  <layer number="15" active="yes" color="23" fill="1" name="Route15" visible="no"/>
-  <layer number="16" active="yes" color="1" fill="1" name="Bottom" visible="yes"/>
-  <layer number="17" active="yes" color="2" fill="1" name="Pads" visible="yes"/>
-  <layer number="18" active="yes" color="2" fill="1" name="Vias" visible="yes"/>
-  <layer number="19" active="yes" color="6" fill="1" name="Unrouted" visible="yes"/>
-  <layer number="20" active="yes" color="24" fill="1" name="Dimension" visible="yes"/>
-  <layer number="21" active="yes" color="7" fill="1" name="tPlace" visible="yes"/>
-  <layer number="22" active="yes" color="7" fill="1" name="bPlace" visible="yes"/>
-  <layer number="23" active="yes" color="15" fill="1" name="tOrigins" visible="yes"/>
-  <layer number="24" active="yes" color="15" fill="1" name="bOrigins" visible="yes"/>
-  <layer number="25" active="yes" color="7" fill="1" name="tNames" visible="yes"/>
-  <layer number="26" active="yes" color="7" fill="1" name="bNames" visible="yes"/>
-  <layer number="27" active="yes" color="7" fill="1" name="tValues" visible="yes"/>
-  <layer number="28" active="yes" color="7" fill="1" name="bValues" visible="yes"/>
-  <layer number="29" active="yes" color="7" fill="3" name="tStop" visible="no"/>
-  <layer number="30" active="yes" color="7" fill="6" name="bStop" visible="no"/>
-  <layer number="31" active="yes" color="7" fill="4" name="tCream" visible="no"/>
-  <layer number="32" active="yes" color="7" fill="5" name="bCream" visible="no"/>
-  <layer number="33" active="yes" color="6" fill="3" name="tFinish" visible="no"/>
-  <layer number="34" active="yes" color="6" fill="6" name="bFinish" visible="no"/>
-  <layer number="35" active="yes" color="7" fill="4" name="tGlue" visible="no"/>
-  <layer number="36" active="yes" color="7" fill="5" name="bGlue" visible="no"/>
-  <layer number="37" active="yes" color="7" fill="1" name="tTest" visible="no"/>
-  <layer number="38" active="yes" color="7" fill="1" name="bTest" visible="no"/>
-  <layer number="39" active="yes" color="4" fill="11" name="tKeepout" visible="yes"/>
-  <layer number="40" active="yes" color="1" fill="11" name="bKeepout" visible="yes"/>
-  <layer number="41" active="yes" color="4" fill="10" name="tRestrict" visible="yes"/>
-  <layer number="42" active="yes" color="1" fill="10" name="bRestrict" visible="yes"/>
-  <layer number="43" active="yes" color="2" fill="10" name="vRestrict" visible="yes"/>
-  <layer number="44" active="yes" color="7" fill="1" name="Drills" visible="no"/>
-  <layer number="45" active="yes" color="7" fill="1" name="Holes" visible="no"/>
-  <layer number="46" active="yes" color="3" fill="1" name="Milling" visible="no"/>
-  <layer number="47" active="yes" color="7" fill="1" name="Measures" visible="no"/>
-  <layer number="48" active="yes" color="7" fill="1" name="Document" visible="yes"/>
-  <layer number="49" active="yes" color="7" fill="1" name="Reference" visible="yes"/>
-  <layer number="51" active="yes" color="7" fill="1" name="tDocu" visible="yes"/>
-  <layer number="52" active="yes" color="7" fill="1" name="bDocu" visible="yes"/>
-  <layer number="88" active="yes" color="9" fill="1" name="SimResults" visible="yes"/>
-  <layer number="89" active="yes" color="9" fill="1" name="SimProbes" visible="yes"/>
-  <layer number="90" active="yes" color="5" fill="1" name="Modules" visible="yes"/>
-  <layer number="91" active="yes" color="2" fill="1" name="Nets" visible="yes"/>
-  <layer number="92" active="yes" color="1" fill="1" name="Busses" visible="yes"/>
-  <layer number="93" active="yes" color="2" fill="1" name="Pins" visible="no"/>
-  <layer number="94" active="yes" color="4" fill="1" name="Symbols" visible="yes"/>
-  <layer number="95" active="yes" color="7" fill="1" name="Names" visible="yes"/>
-  <layer number="96" active="yes" color="7" fill="1" name="Values" visible="yes"/>
-  <layer number="97" active="yes" color="7" fill="1" name="Info" visible="yes"/>
-  <layer number="98" active="yes" color="6" fill="1" name="Guide" visible="yes"/>
+  <layer number="1" visible="yes" color="4" active="yes" name="Top" fill="1"/>
+  <layer number="2" visible="no" color="16" active="yes" name="Route2" fill="1"/>
+  <layer number="3" visible="no" color="17" active="yes" name="Route3" fill="1"/>
+  <layer number="4" visible="no" color="18" active="yes" name="Route4" fill="1"/>
+  <layer number="5" visible="no" color="19" active="yes" name="Route5" fill="1"/>
+  <layer number="6" visible="no" color="25" active="yes" name="Route6" fill="1"/>
+  <layer number="7" visible="no" color="26" active="yes" name="Route7" fill="1"/>
+  <layer number="8" visible="no" color="27" active="yes" name="Route8" fill="1"/>
+  <layer number="9" visible="no" color="28" active="yes" name="Route9" fill="1"/>
+  <layer number="10" visible="no" color="29" active="yes" name="Route10" fill="1"/>
+  <layer number="11" visible="no" color="30" active="yes" name="Route11" fill="1"/>
+  <layer number="12" visible="no" color="20" active="yes" name="Route12" fill="1"/>
+  <layer number="13" visible="no" color="21" active="yes" name="Route13" fill="1"/>
+  <layer number="14" visible="no" color="22" active="yes" name="Route14" fill="1"/>
+  <layer number="15" visible="no" color="23" active="yes" name="Route15" fill="1"/>
+  <layer number="16" visible="yes" color="1" active="yes" name="Bottom" fill="1"/>
+  <layer number="17" visible="yes" color="2" active="yes" name="Pads" fill="1"/>
+  <layer number="18" visible="yes" color="2" active="yes" name="Vias" fill="1"/>
+  <layer number="19" visible="yes" color="6" active="yes" name="Unrouted" fill="1"/>
+  <layer number="20" visible="yes" color="24" active="yes" name="Dimension" fill="1"/>
+  <layer number="21" visible="yes" color="7" active="yes" name="tPlace" fill="1"/>
+  <layer number="22" visible="yes" color="7" active="yes" name="bPlace" fill="1"/>
+  <layer number="23" visible="yes" color="15" active="yes" name="tOrigins" fill="1"/>
+  <layer number="24" visible="yes" color="15" active="yes" name="bOrigins" fill="1"/>
+  <layer number="25" visible="yes" color="7" active="yes" name="tNames" fill="1"/>
+  <layer number="26" visible="yes" color="7" active="yes" name="bNames" fill="1"/>
+  <layer number="27" visible="yes" color="7" active="yes" name="tValues" fill="1"/>
+  <layer number="28" visible="yes" color="7" active="yes" name="bValues" fill="1"/>
+  <layer number="29" visible="no" color="7" active="yes" name="tStop" fill="3"/>
+  <layer number="30" visible="no" color="7" active="yes" name="bStop" fill="6"/>
+  <layer number="31" visible="no" color="7" active="yes" name="tCream" fill="4"/>
+  <layer number="32" visible="no" color="7" active="yes" name="bCream" fill="5"/>
+  <layer number="33" visible="no" color="6" active="yes" name="tFinish" fill="3"/>
+  <layer number="34" visible="no" color="6" active="yes" name="bFinish" fill="6"/>
+  <layer number="35" visible="no" color="7" active="yes" name="tGlue" fill="4"/>
+  <layer number="36" visible="no" color="7" active="yes" name="bGlue" fill="5"/>
+  <layer number="37" visible="no" color="7" active="yes" name="tTest" fill="1"/>
+  <layer number="38" visible="no" color="7" active="yes" name="bTest" fill="1"/>
+  <layer number="39" visible="yes" color="4" active="yes" name="tKeepout" fill="11"/>
+  <layer number="40" visible="yes" color="1" active="yes" name="bKeepout" fill="11"/>
+  <layer number="41" visible="yes" color="4" active="yes" name="tRestrict" fill="10"/>
+  <layer number="42" visible="yes" color="1" active="yes" name="bRestrict" fill="10"/>
+  <layer number="43" visible="yes" color="2" active="yes" name="vRestrict" fill="10"/>
+  <layer number="44" visible="no" color="7" active="yes" name="Drills" fill="1"/>
+  <layer number="45" visible="no" color="7" active="yes" name="Holes" fill="1"/>
+  <layer number="46" visible="no" color="3" active="yes" name="Milling" fill="1"/>
+  <layer number="47" visible="no" color="7" active="yes" name="Measures" fill="1"/>
+  <layer number="48" visible="yes" color="7" active="yes" name="Document" fill="1"/>
+  <layer number="49" visible="yes" color="7" active="yes" name="Reference" fill="1"/>
+  <layer number="51" visible="yes" color="7" active="yes" name="tDocu" fill="1"/>
+  <layer number="52" visible="yes" color="7" active="yes" name="bDocu" fill="1"/>
+  <layer number="88" visible="yes" color="9" active="yes" name="SimResults" fill="1"/>
+  <layer number="89" visible="yes" color="9" active="yes" name="SimProbes" fill="1"/>
+  <layer number="90" visible="yes" color="5" active="yes" name="Modules" fill="1"/>
+  <layer number="91" visible="yes" color="2" active="yes" name="Nets" fill="1"/>
+  <layer number="92" visible="yes" color="1" active="yes" name="Busses" fill="1"/>
+  <layer number="93" visible="no" color="2" active="yes" name="Pins" fill="1"/>
+  <layer number="94" visible="yes" color="4" active="yes" name="Symbols" fill="1"/>
+  <layer number="95" visible="yes" color="7" active="yes" name="Names" fill="1"/>
+  <layer number="96" visible="yes" color="7" active="yes" name="Values" fill="1"/>
+  <layer number="97" visible="yes" color="7" active="yes" name="Info" fill="1"/>
+  <layer number="98" visible="yes" color="6" active="yes" name="Guide" fill="1"/>
  </layers>
 <library>
 <description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -77,62 +77,102 @@
  <package name="SON40P135X330X55-17N">
   <description>&lt;b>UDFN16 3.3X1.35 .4P CASE 517BE-01&lt;/b>&lt;br>&#xd;
 </description>
-  <smd rot="R0" x="-0.75" name="1" dy="0.2" dx="0.6" layer="1" y="1.4"/>
-  <smd rot="R0" x="-0.75" name="2" dy="0.2" dx="0.6" layer="1" y="1"/>
-  <smd rot="R0" x="-0.75" name="3" dy="0.2" dx="0.6" layer="1" y="0.6"/>
-  <smd rot="R0" x="-0.75" name="4" dy="0.2" dx="0.6" layer="1" y="0.2"/>
-  <smd rot="R0" x="-0.75" name="5" dy="0.2" dx="0.6" layer="1" y="-0.2"/>
-  <smd rot="R0" x="-0.75" name="6" dy="0.2" dx="0.6" layer="1" y="-0.6"/>
-  <smd rot="R0" x="-0.75" name="7" dy="0.2" dx="0.6" layer="1" y="-1"/>
-  <smd rot="R0" x="-0.75" name="8" dy="0.2" dx="0.6" layer="1" y="-1.4"/>
-  <smd rot="R0" x="0.75" name="9" dy="0.2" dx="0.6" layer="1" y="-1.4"/>
-  <smd rot="R0" x="0.75" name="10" dy="0.2" dx="0.6" layer="1" y="-1"/>
-  <smd rot="R0" x="0.75" name="11" dy="0.2" dx="0.6" layer="1" y="-0.6"/>
-  <smd rot="R0" x="0.75" name="12" dy="0.2" dx="0.6" layer="1" y="-0.2"/>
-  <smd rot="R0" x="0.75" name="13" dy="0.2" dx="0.6" layer="1" y="0.2"/>
-  <smd rot="R0" x="0.75" name="14" dy="0.2" dx="0.6" layer="1" y="0.6"/>
-  <smd rot="R0" x="0.75" name="15" dy="0.2" dx="0.6" layer="1" y="1"/>
-  <smd rot="R0" x="0.75" name="16" dy="0.2" dx="0.6" layer="1" y="1.4"/>
-  <smd rot="R90" x="0" name="17" dy="0.5" dx="2.9" layer="1" y="0"/>
-  <text rot="R0" x="0" align="center" size="1.27" layer="25" y="0">>NAME</text>
-  <text rot="R0" x="0" align="center" size="1.27" layer="27" y="0">>VALUE</text>
-  <wire width="0.05" y1="1.9" x1="-1.3" y2="1.9" layer="51" x2="1.3"/>
-  <wire width="0.05" y1="1.9" x1="1.3" y2="-1.9" layer="51" x2="1.3"/>
-  <wire width="0.05" y1="-1.9" x1="1.3" y2="-1.9" layer="51" x2="-1.3"/>
-  <wire width="0.05" y1="-1.9" x1="-1.3" y2="1.9" layer="51" x2="-1.3"/>
-  <wire width="0.1" y1="1.65" x1="-0.675" y2="1.65" layer="51" x2="0.675"/>
-  <wire width="0.1" y1="1.65" x1="0.675" y2="-1.65" layer="51" x2="0.675"/>
-  <wire width="0.1" y1="-1.65" x1="0.675" y2="-1.65" layer="51" x2="-0.675"/>
-  <wire width="0.1" y1="-1.65" x1="-0.675" y2="1.65" layer="51" x2="-0.675"/>
-  <wire width="0.1" y1="1.312" x1="-0.675" y2="1.65" layer="51" x2="-0.338"/>
-  <circle width="0.25" x="-1.05" radius="0.125" layer="25" y="2"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="1.4" dy="0.2" name="1"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="1" dy="0.2" name="2"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="0.6" dy="0.2" name="3"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="0.2" dy="0.2" name="4"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="-0.2" dy="0.2" name="5"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="-0.6" dy="0.2" name="6"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="-1" dy="0.2" name="7"/>
+  <smd dx="0.6" layer="1" x="-0.75" rot="R0" y="-1.4" dy="0.2" name="8"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="-1.4" dy="0.2" name="9"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="-1" dy="0.2" name="10"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="-0.6" dy="0.2" name="11"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="-0.2" dy="0.2" name="12"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="0.2" dy="0.2" name="13"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="0.6" dy="0.2" name="14"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="1" dy="0.2" name="15"/>
+  <smd dx="0.6" layer="1" x="0.75" rot="R0" y="1.4" dy="0.2" name="16"/>
+  <smd dx="2.9" layer="1" x="0" rot="R90" y="0" dy="0.5" name="17"/>
+  <text layer="25" x="0" size="1.27" rot="R0" align="center" y="0">>NAME</text>
+  <text layer="27" x="0" size="1.27" rot="R0" align="center" y="0">>VALUE</text>
+  <wire x1="-1.3" layer="51" width="0.05" y2="1.9" x2="1.3" y1="1.9"/>
+  <wire x1="1.3" layer="51" width="0.05" y2="-1.9" x2="1.3" y1="1.9"/>
+  <wire x1="1.3" layer="51" width="0.05" y2="-1.9" x2="-1.3" y1="-1.9"/>
+  <wire x1="-1.3" layer="51" width="0.05" y2="1.9" x2="-1.3" y1="-1.9"/>
+  <wire x1="-0.675" layer="51" width="0.1" y2="1.65" x2="0.675" y1="1.65"/>
+  <wire x1="0.675" layer="51" width="0.1" y2="-1.65" x2="0.675" y1="1.65"/>
+  <wire x1="0.675" layer="51" width="0.1" y2="-1.65" x2="-0.675" y1="-1.65"/>
+  <wire x1="-0.675" layer="51" width="0.1" y2="1.65" x2="-0.675" y1="-1.65"/>
+  <wire x1="-0.675" layer="51" width="0.1" y2="1.65" x2="-0.338" y1="1.312"/>
+  <circle layer="25" width="0.25" x="-1.05" y="2" radius="0.125"/>
+ </package>
+ <package name="SOT95P275X110-6N">
+  <description>&lt;b>TSOP-6 CASE318G-02&lt;/b>&lt;br>&#xd;
+</description>
+  <smd dx="1.25" layer="1" x="-1.25" rot="R0" y="0.95" dy="0.6" name="1"/>
+  <smd dx="1.25" layer="1" x="-1.25" rot="R0" y="0" dy="0.6" name="2"/>
+  <smd dx="1.25" layer="1" x="-1.25" rot="R0" y="-0.95" dy="0.6" name="3"/>
+  <smd dx="1.25" layer="1" x="1.25" rot="R0" y="-0.95" dy="0.6" name="4"/>
+  <smd dx="1.25" layer="1" x="1.25" rot="R0" y="0" dy="0.6" name="5"/>
+  <smd dx="1.25" layer="1" x="1.25" rot="R0" y="0.95" dy="0.6" name="6"/>
+  <text layer="25" x="0" size="1.27" rot="R0" align="center" y="0">>NAME</text>
+  <text layer="27" x="0" size="1.27" rot="R0" align="center" y="0">>VALUE</text>
+  <wire x1="-2.125" layer="51" width="0.05" y2="1.8" x2="2.125" y1="1.8"/>
+  <wire x1="2.125" layer="51" width="0.05" y2="-1.8" x2="2.125" y1="1.8"/>
+  <wire x1="2.125" layer="51" width="0.05" y2="-1.8" x2="-2.125" y1="-1.8"/>
+  <wire x1="-2.125" layer="51" width="0.05" y2="1.8" x2="-2.125" y1="-1.8"/>
+  <wire x1="-0.75" layer="51" width="0.1" y2="1.5" x2="0.75" y1="1.5"/>
+  <wire x1="0.75" layer="51" width="0.1" y2="-1.5" x2="0.75" y1="1.5"/>
+  <wire x1="0.75" layer="51" width="0.1" y2="-1.5" x2="-0.75" y1="-1.5"/>
+  <wire x1="-0.75" layer="51" width="0.1" y2="1.5" x2="-0.75" y1="-1.5"/>
+  <wire x1="-0.75" layer="51" width="0.1" y2="1.5" x2="0.2" y1="0.55"/>
+  <wire x1="-0.275" layer="21" width="0.2" y2="1.5" x2="0.275" y1="1.5"/>
+  <wire x1="0.275" layer="21" width="0.2" y2="-1.5" x2="0.275" y1="1.5"/>
+  <wire x1="0.275" layer="21" width="0.2" y2="-1.5" x2="-0.275" y1="-1.5"/>
+  <wire x1="-0.275" layer="21" width="0.2" y2="1.5" x2="-0.275" y1="-1.5"/>
+  <wire x1="-1.875" layer="21" width="0.2" y2="1.6" x2="-0.625" y1="1.6"/>
  </package>
 </packages>
 <symbols>
  <symbol name="CM1624-08DE">
-  <wire width="0.254" y1="2.54" x1="5.08" y2="2.54" layer="94" x2="30.48"/>
-  <wire width="0.254" y1="-25.4" x1="30.48" y2="2.54" layer="94" x2="30.48"/>
-  <wire width="0.254" y1="-25.4" x1="30.48" y2="-25.4" layer="94" x2="5.08"/>
-  <wire width="0.254" y1="2.54" x1="5.08" y2="-25.4" layer="94" x2="5.08"/>
-  <text x="31.75" align="center-left" size="1.778" layer="95" y="7.62">>NAME</text>
-  <text x="31.75" align="center-left" size="1.778" layer="96" y="5.08">>VALUE</text>
-  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA1" y="0"/>
-  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA0" y="-2.54"/>
-  <pin rot="R0" direction="in" length="middle" x="0" name="SDCLK" y="-5.08"/>
-  <pin rot="R0" direction="io" length="middle" x="0" name="ESD1_1" y="-7.62"/>
-  <pin rot="R0" direction="io" length="middle" x="0" name="ESD3" y="-10.16"/>
-  <pin rot="R0" direction="io" length="middle" x="0" name="SDCMD" y="-12.7"/>
-  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA3" y="-15.24"/>
-  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA2" y="-17.78"/>
-  <pin rot="R90" direction="pwr" length="middle" x="17.78" name="EP" y="-30.48"/>
-  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA1" y="0"/>
-  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA0" y="-2.54"/>
-  <pin rot="R180" direction="in" length="middle" x="35.56" name="CLK" y="-5.08"/>
-  <pin rot="R180" direction="io" length="middle" x="35.56" name="ESD1_2" y="-7.62"/>
-  <pin rot="R180" direction="pwr" length="middle" x="35.56" name="VCC" y="-10.16"/>
-  <pin rot="R180" direction="io" length="middle" x="35.56" name="CMD" y="-12.7"/>
-  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA3" y="-15.24"/>
-  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA2" y="-17.78"/>
+  <wire x1="5.08" layer="94" width="0.254" y2="2.54" x2="30.48" y1="2.54"/>
+  <wire x1="30.48" layer="94" width="0.254" y2="2.54" x2="30.48" y1="-25.4"/>
+  <wire x1="30.48" layer="94" width="0.254" y2="-25.4" x2="5.08" y1="-25.4"/>
+  <wire x1="5.08" layer="94" width="0.254" y2="-25.4" x2="5.08" y1="2.54"/>
+  <text layer="95" x="31.75" size="1.778" align="center-left" y="7.62">>NAME</text>
+  <text layer="96" x="31.75" size="1.778" align="center-left" y="5.08">>VALUE</text>
+  <pin x="0" rot="R0" y="0" length="middle" name="SDDATA1" direction="io"/>
+  <pin x="0" rot="R0" y="-2.54" length="middle" name="SDDATA0" direction="io"/>
+  <pin x="0" rot="R0" y="-5.08" length="middle" name="SDCLK" direction="in"/>
+  <pin x="0" rot="R0" y="-7.62" length="middle" name="ESD1_1" direction="io"/>
+  <pin x="0" rot="R0" y="-10.16" length="middle" name="ESD3" direction="io"/>
+  <pin x="0" rot="R0" y="-12.7" length="middle" name="SDCMD" direction="io"/>
+  <pin x="0" rot="R0" y="-15.24" length="middle" name="SDDATA3" direction="io"/>
+  <pin x="0" rot="R0" y="-17.78" length="middle" name="SDDATA2" direction="io"/>
+  <pin x="17.78" rot="R90" y="-30.48" length="middle" name="EP" direction="pwr"/>
+  <pin x="35.56" rot="R180" y="0" length="middle" name="DATA1" direction="io"/>
+  <pin x="35.56" rot="R180" y="-2.54" length="middle" name="DATA0" direction="io"/>
+  <pin x="35.56" rot="R180" y="-5.08" length="middle" name="CLK" direction="in"/>
+  <pin x="35.56" rot="R180" y="-7.62" length="middle" name="ESD1_2" direction="io"/>
+  <pin x="35.56" rot="R180" y="-10.16" length="middle" name="VCC" direction="pwr"/>
+  <pin x="35.56" rot="R180" y="-12.7" length="middle" name="CMD" direction="io"/>
+  <pin x="35.56" rot="R180" y="-15.24" length="middle" name="DATA3" direction="io"/>
+  <pin x="35.56" rot="R180" y="-17.78" length="middle" name="DATA2" direction="io"/>
+ </symbol>
+ <symbol name="STF202-22T1G">
+  <wire x1="5.08" layer="94" width="0.254" y2="2.54" x2="30.48" y1="2.54"/>
+  <wire x1="30.48" layer="94" width="0.254" y2="2.54" x2="30.48" y1="-7.62"/>
+  <wire x1="30.48" layer="94" width="0.254" y2="-7.62" x2="5.08" y1="-7.62"/>
+  <wire x1="5.08" layer="94" width="0.254" y2="-7.62" x2="5.08" y1="2.54"/>
+  <text layer="95" x="31.75" size="1.778" align="center-left" y="7.62">>NAME</text>
+  <text layer="96" x="31.75" size="1.778" align="center-left" y="5.08">>VALUE</text>
+  <pin x="0" rot="R0" y="0" name="VBUS" length="middle" direction="io"/>
+  <pin x="0" rot="R0" y="-2.54" name="D(IN)-" length="middle" direction="in"/>
+  <pin x="0" rot="R0" y="-5.08" name="D(IN)+" length="middle" direction="in"/>
+  <pin x="35.56" rot="R180" y="0" name="GND" length="middle" direction="pwr"/>
+  <pin x="35.56" rot="R180" y="-2.54" name="D(OUT)-" length="middle" direction="out"/>
+  <pin x="35.56" rot="R180" y="-5.08" name="D(OUT)+" length="middle" direction="out"/>
  </symbol>
 </symbols>
 <devicesets>
@@ -140,28 +180,28 @@
   <description>&lt;b>&lt;/b>&lt;p>&#xd;
 Source: &lt;a href="http://www.onsemi.com/pub/Collateral/CM1624-D.PDF"> Datasheet &lt;/a></description>
   <gates>
-   <gate x="0" name="G$1" y="0" symbol="CM1624-08DE"/>
+   <gate symbol="CM1624-08DE" x="0" y="0" name="G$1"/>
   </gates>
   <devices>
    <device name="" package="SON40P135X330X55-17N">
     <connects>
-     <connect gate="G$1" pin="SDDATA1" pad="1"/>
-     <connect gate="G$1" pin="SDDATA0" pad="2"/>
-     <connect gate="G$1" pin="SDCLK" pad="3"/>
-     <connect gate="G$1" pin="ESD1_1" pad="4"/>
-     <connect gate="G$1" pin="ESD3" pad="5"/>
-     <connect gate="G$1" pin="SDCMD" pad="6"/>
-     <connect gate="G$1" pin="SDDATA3" pad="7"/>
-     <connect gate="G$1" pin="SDDATA2" pad="8"/>
-     <connect gate="G$1" pin="DATA2" pad="9"/>
-     <connect gate="G$1" pin="DATA3" pad="10"/>
-     <connect gate="G$1" pin="CMD" pad="11"/>
-     <connect gate="G$1" pin="VCC" pad="12"/>
-     <connect gate="G$1" pin="ESD1_2" pad="13"/>
-     <connect gate="G$1" pin="CLK" pad="14"/>
-     <connect gate="G$1" pin="DATA0" pad="15"/>
-     <connect gate="G$1" pin="DATA1" pad="16"/>
-     <connect gate="G$1" pin="EP" pad="17"/>
+     <connect gate="G$1" pad="1" pin="SDDATA1"/>
+     <connect gate="G$1" pad="2" pin="SDDATA0"/>
+     <connect gate="G$1" pad="3" pin="SDCLK"/>
+     <connect gate="G$1" pad="4" pin="ESD1_1"/>
+     <connect gate="G$1" pad="5" pin="ESD3"/>
+     <connect gate="G$1" pad="6" pin="SDCMD"/>
+     <connect gate="G$1" pad="7" pin="SDDATA3"/>
+     <connect gate="G$1" pad="8" pin="SDDATA2"/>
+     <connect gate="G$1" pad="9" pin="DATA2"/>
+     <connect gate="G$1" pad="10" pin="DATA3"/>
+     <connect gate="G$1" pad="11" pin="CMD"/>
+     <connect gate="G$1" pad="12" pin="VCC"/>
+     <connect gate="G$1" pad="13" pin="ESD1_2"/>
+     <connect gate="G$1" pad="14" pin="CLK"/>
+     <connect gate="G$1" pad="15" pin="DATA0"/>
+     <connect gate="G$1" pad="16" pin="DATA1"/>
+     <connect gate="G$1" pad="17" pin="EP"/>
     </connects>
     <technologies>
      <technology name="">
@@ -175,6 +215,39 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/CM1624-D.PDF"> Datashee
       <attribute value="http://www.alliedelec.com/on-semiconductor-cm1624-08de/70465928/" constant="no" name="Allied_Price-Stock"/>
       <attribute value="" constant="no" name="Description"/>
       <attribute value="0.55mm" constant="no" name="Height"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset prefix="IC" name="STF202-22T1G">
+  <description>&lt;b>USB Filter with ESD Protection&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/STF202-22T1-D.PDF"> Datasheet &lt;/a></description>
+  <gates>
+   <gate symbol="STF202-22T1G" x="0" y="0" name="G$1"/>
+  </gates>
+  <devices>
+   <device name="" package="SOT95P275X110-6N">
+    <connects>
+     <connect gate="G$1" pad="1" pin="VBUS"/>
+     <connect gate="G$1" pad="2" pin="D(IN)-"/>
+     <connect gate="G$1" pad="3" pin="D(IN)+"/>
+     <connect gate="G$1" pad="4" pin="D(OUT)+"/>
+     <connect gate="G$1" pad="5" pin="D(OUT)-"/>
+     <connect gate="G$1" pad="6" pin="GND"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="ON Semiconductor" constant="no" name="Manufacturer_Name"/>
+      <attribute value="STF202-22T1G" constant="no" name="Manufacturer_Part_Number"/>
+      <attribute value="863-STF202-22T1G" constant="no" name="Mouser_Part_Number"/>
+      <attribute value="https://www.mouser.com/Search/Refine.aspx?Keyword=863-STF202-22T1G" constant="no" name="Mouser_Price-Stock"/>
+      <attribute value="1869924" constant="no" name="RS_Part_Number"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/1869924" constant="no" name="RS_Price-Stock"/>
+      <attribute value="70341539" constant="no" name="Allied_Number"/>
+      <attribute value="http://www.alliedelec.com/on-semiconductor-stf202-22t1g/70341539/" constant="no" name="Allied_Price-Stock"/>
+      <attribute value="USB Filter with ESD Protection" constant="no" name="Description"/>
+      <attribute value="1.1mm" constant="no" name="Height"/>
      </technology>
     </technologies>
    </device>
