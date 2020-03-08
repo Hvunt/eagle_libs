@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+ <settings>
+  <setting alwaysvectorfont="no"/>
+  <setting verticaltext="up"/>
+ </settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+ <layers>
+  <layer number="1" active="yes" color="4" fill="1" name="Top" visible="yes"/>
+  <layer number="2" active="yes" color="16" fill="1" name="Route2" visible="no"/>
+  <layer number="3" active="yes" color="17" fill="1" name="Route3" visible="no"/>
+  <layer number="4" active="yes" color="18" fill="1" name="Route4" visible="no"/>
+  <layer number="5" active="yes" color="19" fill="1" name="Route5" visible="no"/>
+  <layer number="6" active="yes" color="25" fill="1" name="Route6" visible="no"/>
+  <layer number="7" active="yes" color="26" fill="1" name="Route7" visible="no"/>
+  <layer number="8" active="yes" color="27" fill="1" name="Route8" visible="no"/>
+  <layer number="9" active="yes" color="28" fill="1" name="Route9" visible="no"/>
+  <layer number="10" active="yes" color="29" fill="1" name="Route10" visible="no"/>
+  <layer number="11" active="yes" color="30" fill="1" name="Route11" visible="no"/>
+  <layer number="12" active="yes" color="20" fill="1" name="Route12" visible="no"/>
+  <layer number="13" active="yes" color="21" fill="1" name="Route13" visible="no"/>
+  <layer number="14" active="yes" color="22" fill="1" name="Route14" visible="no"/>
+  <layer number="15" active="yes" color="23" fill="1" name="Route15" visible="no"/>
+  <layer number="16" active="yes" color="1" fill="1" name="Bottom" visible="yes"/>
+  <layer number="17" active="yes" color="2" fill="1" name="Pads" visible="yes"/>
+  <layer number="18" active="yes" color="2" fill="1" name="Vias" visible="yes"/>
+  <layer number="19" active="yes" color="6" fill="1" name="Unrouted" visible="yes"/>
+  <layer number="20" active="yes" color="24" fill="1" name="Dimension" visible="yes"/>
+  <layer number="21" active="yes" color="7" fill="1" name="tPlace" visible="yes"/>
+  <layer number="22" active="yes" color="7" fill="1" name="bPlace" visible="yes"/>
+  <layer number="23" active="yes" color="15" fill="1" name="tOrigins" visible="yes"/>
+  <layer number="24" active="yes" color="15" fill="1" name="bOrigins" visible="yes"/>
+  <layer number="25" active="yes" color="7" fill="1" name="tNames" visible="yes"/>
+  <layer number="26" active="yes" color="7" fill="1" name="bNames" visible="yes"/>
+  <layer number="27" active="yes" color="7" fill="1" name="tValues" visible="yes"/>
+  <layer number="28" active="yes" color="7" fill="1" name="bValues" visible="yes"/>
+  <layer number="29" active="yes" color="7" fill="3" name="tStop" visible="no"/>
+  <layer number="30" active="yes" color="7" fill="6" name="bStop" visible="no"/>
+  <layer number="31" active="yes" color="7" fill="4" name="tCream" visible="no"/>
+  <layer number="32" active="yes" color="7" fill="5" name="bCream" visible="no"/>
+  <layer number="33" active="yes" color="6" fill="3" name="tFinish" visible="no"/>
+  <layer number="34" active="yes" color="6" fill="6" name="bFinish" visible="no"/>
+  <layer number="35" active="yes" color="7" fill="4" name="tGlue" visible="no"/>
+  <layer number="36" active="yes" color="7" fill="5" name="bGlue" visible="no"/>
+  <layer number="37" active="yes" color="7" fill="1" name="tTest" visible="no"/>
+  <layer number="38" active="yes" color="7" fill="1" name="bTest" visible="no"/>
+  <layer number="39" active="yes" color="4" fill="11" name="tKeepout" visible="yes"/>
+  <layer number="40" active="yes" color="1" fill="11" name="bKeepout" visible="yes"/>
+  <layer number="41" active="yes" color="4" fill="10" name="tRestrict" visible="yes"/>
+  <layer number="42" active="yes" color="1" fill="10" name="bRestrict" visible="yes"/>
+  <layer number="43" active="yes" color="2" fill="10" name="vRestrict" visible="yes"/>
+  <layer number="44" active="yes" color="7" fill="1" name="Drills" visible="no"/>
+  <layer number="45" active="yes" color="7" fill="1" name="Holes" visible="no"/>
+  <layer number="46" active="yes" color="3" fill="1" name="Milling" visible="no"/>
+  <layer number="47" active="yes" color="7" fill="1" name="Measures" visible="no"/>
+  <layer number="48" active="yes" color="7" fill="1" name="Document" visible="yes"/>
+  <layer number="49" active="yes" color="7" fill="1" name="Reference" visible="yes"/>
+  <layer number="51" active="yes" color="7" fill="1" name="tDocu" visible="yes"/>
+  <layer number="52" active="yes" color="7" fill="1" name="bDocu" visible="yes"/>
+  <layer number="88" active="yes" color="9" fill="1" name="SimResults" visible="yes"/>
+  <layer number="89" active="yes" color="9" fill="1" name="SimProbes" visible="yes"/>
+  <layer number="90" active="yes" color="5" fill="1" name="Modules" visible="yes"/>
+  <layer number="91" active="yes" color="2" fill="1" name="Nets" visible="yes"/>
+  <layer number="92" active="yes" color="1" fill="1" name="Busses" visible="yes"/>
+  <layer number="93" active="yes" color="2" fill="1" name="Pins" visible="no"/>
+  <layer number="94" active="yes" color="4" fill="1" name="Symbols" visible="yes"/>
+  <layer number="95" active="yes" color="7" fill="1" name="Names" visible="yes"/>
+  <layer number="96" active="yes" color="7" fill="1" name="Values" visible="yes"/>
+  <layer number="97" active="yes" color="7" fill="1" name="Info" visible="yes"/>
+  <layer number="98" active="yes" color="6" fill="1" name="Guide" visible="yes"/>
+ </layers>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+ <package name="SON40P135X330X55-17N">
+  <description>&lt;b>UDFN16 3.3X1.35 .4P CASE 517BE-01&lt;/b>&lt;br>&#xd;
+</description>
+  <smd rot="R0" x="-0.75" name="1" dy="0.2" dx="0.6" layer="1" y="1.4"/>
+  <smd rot="R0" x="-0.75" name="2" dy="0.2" dx="0.6" layer="1" y="1"/>
+  <smd rot="R0" x="-0.75" name="3" dy="0.2" dx="0.6" layer="1" y="0.6"/>
+  <smd rot="R0" x="-0.75" name="4" dy="0.2" dx="0.6" layer="1" y="0.2"/>
+  <smd rot="R0" x="-0.75" name="5" dy="0.2" dx="0.6" layer="1" y="-0.2"/>
+  <smd rot="R0" x="-0.75" name="6" dy="0.2" dx="0.6" layer="1" y="-0.6"/>
+  <smd rot="R0" x="-0.75" name="7" dy="0.2" dx="0.6" layer="1" y="-1"/>
+  <smd rot="R0" x="-0.75" name="8" dy="0.2" dx="0.6" layer="1" y="-1.4"/>
+  <smd rot="R0" x="0.75" name="9" dy="0.2" dx="0.6" layer="1" y="-1.4"/>
+  <smd rot="R0" x="0.75" name="10" dy="0.2" dx="0.6" layer="1" y="-1"/>
+  <smd rot="R0" x="0.75" name="11" dy="0.2" dx="0.6" layer="1" y="-0.6"/>
+  <smd rot="R0" x="0.75" name="12" dy="0.2" dx="0.6" layer="1" y="-0.2"/>
+  <smd rot="R0" x="0.75" name="13" dy="0.2" dx="0.6" layer="1" y="0.2"/>
+  <smd rot="R0" x="0.75" name="14" dy="0.2" dx="0.6" layer="1" y="0.6"/>
+  <smd rot="R0" x="0.75" name="15" dy="0.2" dx="0.6" layer="1" y="1"/>
+  <smd rot="R0" x="0.75" name="16" dy="0.2" dx="0.6" layer="1" y="1.4"/>
+  <smd rot="R90" x="0" name="17" dy="0.5" dx="2.9" layer="1" y="0"/>
+  <text rot="R0" x="0" align="center" size="1.27" layer="25" y="0">>NAME</text>
+  <text rot="R0" x="0" align="center" size="1.27" layer="27" y="0">>VALUE</text>
+  <wire width="0.05" y1="1.9" x1="-1.3" y2="1.9" layer="51" x2="1.3"/>
+  <wire width="0.05" y1="1.9" x1="1.3" y2="-1.9" layer="51" x2="1.3"/>
+  <wire width="0.05" y1="-1.9" x1="1.3" y2="-1.9" layer="51" x2="-1.3"/>
+  <wire width="0.05" y1="-1.9" x1="-1.3" y2="1.9" layer="51" x2="-1.3"/>
+  <wire width="0.1" y1="1.65" x1="-0.675" y2="1.65" layer="51" x2="0.675"/>
+  <wire width="0.1" y1="1.65" x1="0.675" y2="-1.65" layer="51" x2="0.675"/>
+  <wire width="0.1" y1="-1.65" x1="0.675" y2="-1.65" layer="51" x2="-0.675"/>
+  <wire width="0.1" y1="-1.65" x1="-0.675" y2="1.65" layer="51" x2="-0.675"/>
+  <wire width="0.1" y1="1.312" x1="-0.675" y2="1.65" layer="51" x2="-0.338"/>
+  <circle width="0.25" x="-1.05" radius="0.125" layer="25" y="2"/>
+ </package>
+</packages>
+<symbols>
+ <symbol name="CM1624-08DE">
+  <wire width="0.254" y1="2.54" x1="5.08" y2="2.54" layer="94" x2="30.48"/>
+  <wire width="0.254" y1="-25.4" x1="30.48" y2="2.54" layer="94" x2="30.48"/>
+  <wire width="0.254" y1="-25.4" x1="30.48" y2="-25.4" layer="94" x2="5.08"/>
+  <wire width="0.254" y1="2.54" x1="5.08" y2="-25.4" layer="94" x2="5.08"/>
+  <text x="31.75" align="center-left" size="1.778" layer="95" y="7.62">>NAME</text>
+  <text x="31.75" align="center-left" size="1.778" layer="96" y="5.08">>VALUE</text>
+  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA1" y="0"/>
+  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA0" y="-2.54"/>
+  <pin rot="R0" direction="in" length="middle" x="0" name="SDCLK" y="-5.08"/>
+  <pin rot="R0" direction="io" length="middle" x="0" name="ESD1_1" y="-7.62"/>
+  <pin rot="R0" direction="io" length="middle" x="0" name="ESD3" y="-10.16"/>
+  <pin rot="R0" direction="io" length="middle" x="0" name="SDCMD" y="-12.7"/>
+  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA3" y="-15.24"/>
+  <pin rot="R0" direction="io" length="middle" x="0" name="SDDATA2" y="-17.78"/>
+  <pin rot="R90" direction="pwr" length="middle" x="17.78" name="EP" y="-30.48"/>
+  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA1" y="0"/>
+  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA0" y="-2.54"/>
+  <pin rot="R180" direction="in" length="middle" x="35.56" name="CLK" y="-5.08"/>
+  <pin rot="R180" direction="io" length="middle" x="35.56" name="ESD1_2" y="-7.62"/>
+  <pin rot="R180" direction="pwr" length="middle" x="35.56" name="VCC" y="-10.16"/>
+  <pin rot="R180" direction="io" length="middle" x="35.56" name="CMD" y="-12.7"/>
+  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA3" y="-15.24"/>
+  <pin rot="R180" direction="io" length="middle" x="35.56" name="DATA2" y="-17.78"/>
+ </symbol>
+</symbols>
+<devicesets>
+ <deviceset prefix="IC" name="CM1624-08DE">
+  <description>&lt;b>&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/CM1624-D.PDF"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="0" name="G$1" y="0" symbol="CM1624-08DE"/>
+  </gates>
+  <devices>
+   <device name="" package="SON40P135X330X55-17N">
+    <connects>
+     <connect gate="G$1" pin="SDDATA1" pad="1"/>
+     <connect gate="G$1" pin="SDDATA0" pad="2"/>
+     <connect gate="G$1" pin="SDCLK" pad="3"/>
+     <connect gate="G$1" pin="ESD1_1" pad="4"/>
+     <connect gate="G$1" pin="ESD3" pad="5"/>
+     <connect gate="G$1" pin="SDCMD" pad="6"/>
+     <connect gate="G$1" pin="SDDATA3" pad="7"/>
+     <connect gate="G$1" pin="SDDATA2" pad="8"/>
+     <connect gate="G$1" pin="DATA2" pad="9"/>
+     <connect gate="G$1" pin="DATA3" pad="10"/>
+     <connect gate="G$1" pin="CMD" pad="11"/>
+     <connect gate="G$1" pin="VCC" pad="12"/>
+     <connect gate="G$1" pin="ESD1_2" pad="13"/>
+     <connect gate="G$1" pin="CLK" pad="14"/>
+     <connect gate="G$1" pin="DATA0" pad="15"/>
+     <connect gate="G$1" pin="DATA1" pad="16"/>
+     <connect gate="G$1" pin="EP" pad="17"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="ON Semiconductor" constant="no" name="Manufacturer_Name"/>
+      <attribute value="CM1624-08DE" constant="no" name="Manufacturer_Part_Number"/>
+      <attribute value="748-CM1624-08DE" constant="no" name="Mouser_Part_Number"/>
+      <attribute value="https://www.mouser.com/Search/Refine.aspx?Keyword=748-CM1624-08DE" constant="no" name="Mouser_Price-Stock"/>
+      <attribute value="8009960P" constant="no" name="RS_Part_Number"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/8009960P" constant="no" name="RS_Price-Stock"/>
+      <attribute value="70465928" constant="no" name="Allied_Number"/>
+      <attribute value="http://www.alliedelec.com/on-semiconductor-cm1624-08de/70465928/" constant="no" name="Allied_Price-Stock"/>
+      <attribute value="" constant="no" name="Description"/>
+      <attribute value="0.55mm" constant="no" name="Height"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
