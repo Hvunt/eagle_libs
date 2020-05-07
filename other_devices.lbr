@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -78,24 +78,13 @@
 <package name="MLX90640ESFBAA000TU">
 <description>&lt;b&gt;MLX90640ESF-BAA-000-SP&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.35"/>
-<pad name="2" x="-0.855" y="-2.065" drill="0.9" diameter="1.35"/>
-<pad name="3" x="4.13" y="-4.13" drill="0.9" diameter="1.35"/>
-<pad name="4" x="4.985" y="-2.065" drill="0.7" diameter="1.1"/>
-<text x="2.065" y="-2.065" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="2.065" y="-2.065" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.535" y1="3.535" x2="7.665" y2="3.535" width="0.1" layer="51"/>
-<wire x1="7.665" y1="3.535" x2="7.665" y2="-7.665" width="0.1" layer="51"/>
-<wire x1="7.665" y1="-7.665" x2="-3.535" y2="-7.665" width="0.1" layer="51"/>
-<wire x1="-3.535" y1="-7.665" x2="-3.535" y2="3.535" width="0.1" layer="51"/>
-<wire x1="6.665" y1="-2.065" x2="6.665" y2="-2.065" width="0.1" layer="51"/>
-<wire x1="6.665" y1="-2.065" x2="-2.535" y2="-2.065" width="0.1" layer="51" curve="180"/>
-<wire x1="-2.535" y1="-2.065" x2="-2.535" y2="-2.065" width="0.1" layer="51"/>
-<wire x1="-2.535" y1="-2.065" x2="6.665" y2="-2.065" width="0.1" layer="51" curve="180"/>
-<wire x1="6.665" y1="-2.065" x2="6.665" y2="-2.065" width="0.1" layer="21"/>
-<wire x1="6.665" y1="-2.065" x2="-2.535" y2="-2.065" width="0.1" layer="21" curve="180"/>
-<wire x1="-2.535" y1="-2.065" x2="-2.535" y2="-2.065" width="0.1" layer="21"/>
-<wire x1="-2.535" y1="-2.065" x2="6.665" y2="-2.065" width="0.1" layer="21" curve="180"/>
+<pad name="1" x="0.222" y="1.117" drill="0.9" diameter="1.35"/>
+<pad name="2" x="0.222" y="-1.117" drill="0.9" diameter="1.35"/>
+<pad name="3" x="5.617" y="-1.117" drill="0.9" diameter="1.35"/>
+<pad name="4" x="5.617" y="1.117" drill="0.7" diameter="1.1"/>
+<text x="0.825" y="5.685" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="1.325" y="-5.715" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="2.92" y="0" radius="4.65" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -123,9 +112,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/MLX90640ESF-B
 <device name="" package="MLX90640ESFBAA000TU">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
 <connect gate="G$1" pin="SDA" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
